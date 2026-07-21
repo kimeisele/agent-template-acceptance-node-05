@@ -1,20 +1,23 @@
 {
-  "authority_feed_manifest_url": "https://raw.githubusercontent.com/kimeisele/agent-template/authority-feed/latest-authority-manifest.json",
+  "authority_feed_manifest_url": "https://raw.githubusercontent.com/kimeisele/agent-template-acceptance-node-05/authority-feed/latest-authority-manifest.json",
   "capabilities": [
-    "authority-publishing"
+    "authority-publishing",
+    "research-synthesis",
+    "cross-domain-analysis",
+    "open-inquiry"
   ],
-  "display_name": "Agent Template",
+  "display_name": "Final Acceptance Node 05",
   "endpoints": {
     "authority_descriptor_seeds": "data/federation/authority-descriptor-seeds.json",
     "federation_descriptor": ".well-known/agent-federation.json"
   },
   "kind": "agent_federation_descriptor",
   "layer": "node",
-  "owner_boundary": "agent_template_surface",
+  "owner_boundary": "agent_template_acceptance_node_05_surface",
   "projection_intents": [
     "public_authority_page"
   ],
-  "repo_id": "agent-template",
+  "repo_id": "agent-template-acceptance-node-05",
   "status": "active",
   "version": 1
 }
