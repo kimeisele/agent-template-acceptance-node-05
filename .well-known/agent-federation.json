@@ -1,9 +1,12 @@
 {
   "authority_feed_manifest_url": "https://raw.githubusercontent.com/kimeisele/agent-template-acceptance-node-05/authority-feed/latest-authority-manifest.json",
   "capabilities": [
-    "authority-publishing"
+    "authority-publishing",
+    "research-synthesis",
+    "cross-domain-analysis",
+    "open-inquiry"
   ],
-  "display_name": "Agent Template",
+  "display_name": "Final Acceptance Node 05",
   "endpoints": {
     "authority_descriptor_seeds": "data/federation/authority-descriptor-seeds.json",
     "federation_descriptor": ".well-known/agent-federation.json"

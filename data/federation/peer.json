@@ -1,18 +1,20 @@
 {
   "identity": {
-    "city_id": "agent-template",
-    "slug": "agent-template",
-    "repo": "kimeisele/agent-template",
+    "city_id": "agent-template-acceptance-node-05",
+    "slug": "agent-template-acceptance-node-05",
+    "repo": "kimeisele/agent-template-acceptance-node-05",
     "public_key": ""
   },
   "endpoint": {
-    "city_id": "agent-template",
+    "city_id": "agent-template-acceptance-node-05",
     "transport": "filesystem",
     "location": "data/federation"
   },
   "capabilities": [
-    "scaffolding",
-    "federation_relay"
+    "authority-publishing",
+    "research-synthesis",
+    "cross-domain-analysis",
+    "open-inquiry"
   ],
   "nadi": {
     "outbox": "data/federation/nadi_outbox.json",
